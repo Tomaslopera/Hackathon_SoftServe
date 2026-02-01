@@ -6,7 +6,7 @@ from pydantic import BaseModel, Field
 
 class PredictRequest(BaseModel):
     text: str = Field(..., min_length=1)
-    top_n: int = Field(3, ge=1, le=50)
+    top_n: int = Field(10, ge=1, le=50)
     threshold: float = Field(0.30, ge=0.0, le=1.0)
     include_children: bool = Field(True)
     max_children: int = Field(3, ge=1, le=25)

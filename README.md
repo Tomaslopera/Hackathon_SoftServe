@@ -2,7 +2,7 @@
 
 **https://huggingface.co/DATEXIS/CORe-clinical-diagnosis-prediction**
 
-## Cases of use
+## Use cases
 
 **The information is organized by the next schema**
 
